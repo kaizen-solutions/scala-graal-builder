@@ -1,9 +1,16 @@
 # A Docker image to build Scala & Graal Native Image projects
 
+![Docker Image Size](https://flat.badgen.net/docker/size/rubixcubin/scala-graal-builder)
+[![Chat on Discord](https://img.shields.io/discord/955126399100932106?label=chat%20on%20discord)](https://discord.gg/qw2nGFzU)
+
 This image relies on SDKMAN to provide the following:
 * The latest version of SBT at the time of building
 * A GraalVM CE flavour of the JVM (currently `22.0.0.2.r17`)
 * Graal Native Image to build native image binaries.
+
+This [image](https://hub.docker.com/repository/docker/rubixcubin/scala-graal-builder/tags?page=1&ordering=last_updated) is built for Linux/AMD64 and Linux/ARM64 platforms thanks to Docker Buildx and GitHub Workflow
+
+<img width="772" alt="image" src="https://user-images.githubusercontent.com/14280155/164943591-9d4a713b-95f5-475a-8152-9637d5d96db1.png">
 
 
 ## Building locally
