@@ -1,7 +1,7 @@
 FROM debian:11-slim
 
 # Artifact information
-ARG sdkmanGraalJavaVersion="22.0.0.2.r17-grl"
+ARG sdkmanGraalJavaVersion="21-graal"
 
 # User information
 ARG username="builder"
